@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content=" ClickIt has built a reputation as one of the premier photography website in India ">
+  <meta name="keyword" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width:1100px)" href="css/widescreen.css">
+  <title>ClickIt | Photography</title>
+</head>
+<body id="home">
+
+<!-- NavBar -->
+  <nav id="navbar">
+   <h1 class="logo">
+       <span class="text-primary"> <i class="fas fa-camera-retro"></i> Click</span>It 
+    </h1>
+  
+    <ul>
+      <li><a href="#home"> Home</a></li>    
+      <li><a href="#what"> What</a></li>    
+      <li><a href="#who"> Who</a></li>    
+      <li><a href="#contact"> Contact</a></li>    
+    </ul>
+  </nav>
+  <!-- Showcase -->
+  <header id="showcase">
+    <div class="showcase-content">
+        <h1 class="l-heading">Capture It All</h1>
+        <p class="lead ">
+            The best images are the ones that retain their strength and impact over the years, regardless of the number of times they are viewed.
+        </p>
+        <a href="#what" class="btn">Read More </a>
+    </div>
+
+  </header>
+
+  <!-- section What -->
+  <section id="what" class="py-1 bg-light">
+    <div class="container">
+      <h2 class="m-heading text-center">
+        <span class="text-primary-2">What </span> We Do
+      </h2>
+      <div class="items">
+        <div class="item">
+            <i class="fas fa-book-reader fa-2x"></i>
+            <div>
+          <h3>Training </h3>
+          <p>At ClickIt we provide training that is tailored to your personal and career aspirations, and offer programs that help you reach your potential.</p>
+          </div>
+        </div>
+        <div class="item">
+            <i class="fas fa-person-booth fa-2x"></i>
+            <div>
+            <h3>Rent Our Studio </h3>
+            <p>At ClickIt you can rent a huge studio at a very compatible price with studio lighting, soft-boxes, reflectors and other equipment for half day, full day or can buy our studio membership according to your needs.</p>
+            </div>
+          </div>
+          <div class="item">
+              <i class="fas fa-video fa-2x"></i>
+              <div>
+              <h3>Event </h3>
+              <p>Event Photography is a lucrative field as covering events can be highly profitable career and payment is necessary thing to consider in preferring a line of work.</p>
+              </div>
+            </div>
+
+    </div>
+    </div>
+  </section>
+<!-- SECTION WHO -->
+<section id="who" > 
+  <div class="who-img">
+  </div>
+  <div class="who-text bg-dark p-2">
+    <h2 class="m-heading"><span class="text-primary-2">Who </span>We Are</h2>
+    <p>Over the past years, ClickIt has built a reputation as one of the premier photography website in India and has become Indian leading provider of photographers by developing programs that put our students first.</p>
+    <h3>Our Team</h3>
+    <ul class="list">
+      <li>Gyanendra : CEO</li>
+      <li>Abhinav : CFO</li>
+      <li>Harsh : Senior Advisor</li>
+      <li>Dhairya : Manager</li>
+      <li>Anuj : Photographer</li>
+    </ul>
+  </div>
+</section>
+<!-- clients -->
+<section id="clients" class="py-1">
+  <div class="container">
+    <h2 class="m-heading text-center">
+      <span class="text-primary-2">Our</span> Clients
+    </h2>
+    <div class="items py-1">
+      <div><img src="./img/logo1.png" alt="Client"> </div>
+      <div><img src="./img/logo2.png" alt="Client"> </div>
+      <div><img src="./img/logo3.png" alt="Client"> </div>
+      <div><img src="./img/logo4.png" alt="Client"> </div>
+      <div><img src="./img/logo5.png" alt="Client"> </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- section Contact us -->
+<section id="contact">
+  <div class="contact-form bg-primary p-2">
+    <h2 class="m-heading">
+      Contact Us
+    </h2>
+    <p>Please use the form below to contact us</p>
+    <form action="process.php" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone-No</label>
+        <input type="text" name="phone" id="phone" placeholder="Enter Phone-No">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="name" id="name" placeholder="Enter Your Message"></textarea>
+      </div>
+      <div class="form-group">
+      <input type="submit" value="send" class="btn bg-dark">
+      </div>
+    </form>
+
+  </div>
+  <div class="map"></div>
+</section>
+
+<!-- footer -->
+<footer id="main-footer" class="bg-dark text-center py-1">
+  <div class="container">
+    <p> &copy; Copyright 2019, ClickIt. All Rights Reserved.</p>
+  </div> 
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap"
+async defer></script>
+</body>
+</html>
